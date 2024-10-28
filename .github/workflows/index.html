@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>BigPapi - Rental and Tours</title>
+        <link rel="stylesheet" href="styles/style.css" />
+        <link rel="stylesheet" href="styles/normalize.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            href="./assets/favicon/favicon-48x48.png"
+            sizes="48x48"
+        />
+        <link
+            rel="icon"
+            type="image/svg+xml"
+            href="./assets/favicon/favicon.svg"
+        />
+        <link rel="shortcut icon" href="./assets/favicon/favicon.ico" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-touch-icon.png"
+        />
+        <meta name="apple-mobile-web-app-title" content="BigPapi Rental" />
+        <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+    </head>
+    <body>
+        <header>
+            <ul class="nav">
+                <li>
+                    <a href="#"
+                        ><img class="logo" src="./assets/logo.svg" alt="logo"
+                    /></a>
+                </li>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="pages/Vehiculos/page/Vehiculos.html">Vehículos</a></li>
+                <li><a href="#">Tours</a></li>
+                <li><a href="#">Sobre Nosotros</a></li>
+                <li><a href="#">Productos y servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </header>
+        <main>
+            <div class="hero">
+                <div class="slider-carros">
+                    <img src="/assets/pp2.svg" alt="" class="main-image" />
+                    <p class="main-image-description"></p>
+                </div>
+
+                <div class="seacher">
+                    <form action="">
+                        <div class="formu">
+                            <div class="part-1">
+                                <label>
+                                    <p>Fecha Salida</p>
+                                    <input
+                                        type="date"
+                                        placeholder="Buscar vehículo"
+                                    />
+                                </label>
+                                <label>
+                                    <p>Fecha Retorno</p>
+                                    <input
+                                        type="date"
+                                        placeholder="Buscar vehículo"
+                                    />
+                                </label>
+                                <label>
+                                    <p>Lugar de salida</p>
+                                    <input
+                                        type="search"
+                                        placeholder="Buscar vehículo"
+                                    />
+                                </label>
+                            </div>
+                            <div class="part-2">
+                                <label>
+                                    <p>Hora Entrada</p>
+                                    <input
+                                        type="time"
+                                        placeholder="Buscar vehículo"
+                                    />
+                                </label>
+                                <label>
+                                    <p>Hora Retorno</p>
+                                    <input
+                                        type="time"
+                                        placeholder="Buscar vehículo"
+                                    />
+                                </label>
+                                <label>
+                                    <p>Lugar de retorno</p>
+                                    <p>
+                                        <input
+                                            type="search"
+                                            placeholder="Buscar vehículo"
+                                        /></p
+                                ></label>
+                                <button class="send-button" type="submit">
+                                    Buscar
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+                        
+            <!--Vehiculos Disponible 1-->
+            <h1 style="text-align: center">Vehiculos Disponibles</h1>
+
+            <div class="car-gallery">
+                <div class="car">
+                    <img class="showcar" src="/pages/Vehiculos/img/chevrolet-tahoe-premiere-ls.png" alt="" />
+                    <p class="title">Chevrolet Tahoe</p>
+                    <p class="sub-title">
+                        Automática, Gasolina, Radio Digital, Cámara de reversa, Sensores de parqueo
+                    </p>
+                    <button type="button" class="reserve-button">Reserve</button>
+                    <div class="car-description">
+                        <i class="icon-puerta">4
+                            <img class="desc-icon" src="assets/icons/car.svg" alt="Icono carro">
+                        </i>
+                        <i class="desc-icon">8
+                        </i>
+                            <img class="desc-icon" src="assets/icons/cinturon.svg" alt="Icono carro">
+                            <spam class="Disponible-texto">Aire acondicionado </spam>
+                        
+                        <i id="Aire" class="fa-solid fa-snowflake" ></i>
+                    </div>
+                </div>
+
+                <!--Vehiculos Disponible 2-->
+                <div class="car">
+                    <img class="showcar" src="/pages/Vehiculos/img/Cadillac.png" alt="" />
+                    <p class="title">Cadillac Escalade
+                    </p>
+                    <p class="sub-title">
+                        Automática, Gasolina, Radio Digital, Cámara de reversa, Sensores de parqueo
+                    </p>
+                    <button type="button" class="reserve-button">Reserve</button>
+                    <div class="car-description">
+                        <i class="icon-puerta">4
+                            <img class="desc-icon" src="assets/icons/car.svg" alt="Icono carro">
+                        </i>
+                        <i class="desc-icon">6
+                        </i>
+                            <img class="desc-icon" src="assets/icons/cinturon.svg" alt="Icono carro">
+                            <spam class="Disponible-texto">Aire acondicionado </spam>
+                        
+                        <i id="Aire" class="fa-solid fa-snowflake" ></i>
+                    </div>
+                </div>
+
+                <!--Vehiculos Disponible 3-->
+                <div class="car">
+                    <img class="showcar" src="/assets/Diseño sin título (4).png" alt="" />
+                    <p class="title">Toyota Hiace</p>
+                    <p class="sub-title">
+                        Automática, Gasolina, Radio Digital, Cámara y sensores de parqueo delanteros y traseros
+                    </p>
+                    <button type="button" class="reserve-button">Reserve</button>
+                    <div class="car-description">
+                        <i class="icon-puerta">3
+                            <img class="desc-icon" src="assets/icons/car.svg" alt="Icono carro">
+                        </i>
+                        <i class="desc-icon">13
+                        </i>
+                            <img class="desc-icon" src="assets/icons/cinturon.svg" alt="Icono carro">
+                            <spam class="Disponible-texto">Aire acondicionado </spam>
+                        
+                        <i id="Aire" class="fa-solid fa-snowflake" ></i>
+                    </div>
+                </div>
+            </div>
+                
+               <!--Viajes--> 
+
+               <div class="container">
+                <h1 class="titulo-principal">Viajes Inolvidables a cualquier parte del país</h1>
+                <p class="subtitulo">Disfruta de los mejores lugares de la isla caribeña, al mejor precio.</p>
+                
+                <div class="contenido">
+                    <img src="/assets/isla catalina.png" alt="Imagen de Isla Catalina">
+                    <div class="texto-descriptivo">
+                        <h3>Viaje a la Isla Catalina</h3>
+                        <p>Isla Catalina es un paraíso tropical con aguas cristalinas y arenas blancas. 
+                        ¡Un destino perfecto para desconectar y disfrutar de la belleza natural!</p>
+                    </div>
+                </div>
+                <div class="contenido">
+                    <img src="/assets/Buggies.png" alt="Imagen de Isla Catalina">
+                    <div class="texto-descriptivo">
+                        <h3>Paseos en Buggies</h3>
+                        <p>Las rutas en buggies son pura adrenalina: aventura, paisajes impresionantes y emoción sin límites para los más atrevidos. 
+                            ¡Una experiencia que te dejará sin aliento!</p>
+                    </div>
+                </div>
+                <div class="contenido">
+                    <img src="/assets/Isla saona.jpg" alt="Imagen de Isla Catalina">
+                    <div class="texto-descriptivo">
+                        <h3>Viaje a la Isla Saona</h3>
+                        <p>Isla Saona es un paraíso escondido con playas de ensueño y aguas turquesas. 
+                            ¡El lugar ideal para relajarse y disfrutar de la naturaleza!</p>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <!--FOOTER-->
+        <footer>
+            <section class="footer">
+                <div class="footer-card">
+                    <img src="./assets/large-logo.svg" alt="" />
+                </div>
+                <div class="footer-card">
+                    <h3>Redes Sociales</h3>
+                    <div class="social-media">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <h3>Contacto</h3>
+                    <div class="social-media">
+                        <a href="#"
+                            ><p>
+                                <i class="fa-brands fa-whatsapp"></i>
+                                809-123-4567
+                            </p></a
+                        >
+                        <a href="#"
+                            ><p>
+                                <i class="fa-brands fa-whatsapp"></i>
+                                809-123-4567
+                            </p></a
+                        >
+                        <a href="#"
+                            ><p>
+                                <i class="fa-solid fa-map-location-dot"></i>
+                                Calle A, Santo Domingo
+                            </p></a
+                        >
+                    </div>
+                </div>
+                <div class="footer-card">
+                    <h3>Seguridad y Privacidad</h3>
+                    <ol class="sub-pages">
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        <li><a href="#">Política de Privacidad</a></li>
+                        <li><a href="#">Sobre Nosotros</a></li>
+                    </ol>
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>

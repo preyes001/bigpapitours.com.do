@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/*Header*/
+
+html {
+    font-family: "Inter", serif;
+    width: 100%;
+    height: 100%;
+    
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px  10px rgba(0, 0, 0, 0.5);
+    background-color: #ffff;
+    
+}
+
+.nav {
+    margin-top: 38px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+}
+
+header {
+    position: static;
+    
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    aspect-ratio: 3 / 1;
+}
+
+.logo {
+    height: 60px;
+    width: 120px;
+    margin-top: -25px;
+}
+
+a:link {
+    /*color: #000000;*/
+    text-decoration: none;
+}
+
+li > a:last-child {
+    margin-right: 5.5rem;
+    color: #000000;
+}
+
+li > a:hover{
+    color: red;
+    transition: all 0.5s ease;
+    
+}
+
+.titulo{
+    display: flex;
+    align-items: center;  
+    justify-content: flex-start;  
+    margin-left: 70px;
+    font-size: 2rem;
+    /*color: #696666;*/
+    color: #aa0000
+    
+}
+
+
+.tarjeta-vehiculo {
+    width: 90%; 
+    display: flex;
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+    
+
+.imagen-vehiculo {
+    flex: 1;
+    filter:drop-shadow(/*Midu*/
+        0 0 10px rgba(0,0,0,.5)
+    ) 
+}
+
+.imagen-vehiculo img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.info-vehiculo {
+    flex: 2;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+
+.descripcion {
+    margin: 10px 0;
+    color: #555;
+}
+
+.boton-renta {
+    background-color: #e60000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.boton-renta:hover {
+    background-color: #cc0000;
+}
+
+.caracteristicas {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.caracteristicas span {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+.contenedor-vehiculos {
+    width: 75%; 
+    padding-left: 40px;
+}
+
+
+.tarjeta-vehiculo {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/*FOOTER*/
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #cfd6cf;
+    height: max-content;
+    padding-bottom: 20px;
+}
+
+.footer-card:first-child {
+    align-content: center;
+}
+
+.footer-card:not(:first-child) {
+    margin-top: 50px;
+}
+
+.footer-card h3 {
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+}
+
+.footer-card p {
+    font-size: 20px;
+}
+
+.social-media {
+    display: flex;
+    font-size: 45px;
+    gap: 40px;
+}
+
+.social-media:last-child {
+    flex-direction: column;
+    gap: 15px;
+    font-size: 35px;
+}
+
+.social-media:last-child p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.sub-pages li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.additional-services {
+    width: 100%;
+    height: 500px;
+}
+i{
+    color: #000000;
+}
+
+a{
+    color: rgb(19, 19, 19);
+}
